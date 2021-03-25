@@ -38,6 +38,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 [Kotlin lambda](/kotlin_lambda.md)
 
+[Life Cycle](/life_cycle)
 
 
 ```flow
