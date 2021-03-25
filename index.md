@@ -40,8 +40,9 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 
 
+```flow
 st=>start: 开始
-e=>end: 结束:>kotlin_lambda.md
+e=>end: 结束
 c1=>condition: A
 c2=>condition: B
 c3=>condition: C
@@ -51,3 +52,15 @@ c2(no)->e
 c3(no)->e
 c1(yes,right)->c2(yes,right)->c3(yes,right)->io
 io->e
+```
+
+
+
+```flow
+s=>start: 開始 
+e=>end: 結束 
+o=>operation: 操作項 
+s->o
+o->e
+```
+
