@@ -35,3 +35,19 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+[Kotlin lambda](/kotlin_lambda.md)
+
+
+
+st=>start: 开始
+e=>end: 结束:>kotlin_lambda.md
+c1=>condition: A
+c2=>condition: B
+c3=>condition: C
+io=>inputoutput: D 
+st->c1(no)->e
+c2(no)->e
+c3(no)->e
+c1(yes,right)->c2(yes,right)->c3(yes,right)->io
+io->e
